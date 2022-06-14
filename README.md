@@ -35,3 +35,6 @@ https://wokwi.com/projects/334432905214296659<br>
 
 Motion Sensor:<br>
 https://wokwi.com/projects/334433292061246034<br>
+
+Motion Sensor LED:<br>
+https://wokwi.com/projects/334433622983443027<br>
