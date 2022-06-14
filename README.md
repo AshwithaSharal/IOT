@@ -26,3 +26,6 @@ Pin Diagram:<br>
 ![image](https://user-images.githubusercontent.com/98145023/173380027-511662c7-bd5f-41b9-bf2d-f1c808ecc3ab.png)<br>
 Code:<br>
 https://wokwi.com/projects/334347041012449875<br>
+
+LED FADE<br>
+https://wokwi.com/projects/334432104736621140<br>
