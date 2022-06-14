@@ -27,5 +27,10 @@ Pin Diagram:<br>
 Code:<br>
 https://wokwi.com/projects/334347041012449875<br>
 
-LED FADE<br>
+LED FADE:<br>
 https://wokwi.com/projects/334432104736621140<br>
+
+LED BUTTON:<br>
+https://wokwi.com/projects/334432905214296659<br>
+
+
