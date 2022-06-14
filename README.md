@@ -41,3 +41,6 @@ https://wokwi.com/projects/334433622983443027<br>
 
 Motion Sensor Buzzer:<br>
 https://wokwi.com/projects/334433939640812114<br>
+
+Ultrasonic Sensor:<br>
+https://wokwi.com/projects/334434338424750674
