@@ -38,3 +38,6 @@ https://wokwi.com/projects/334433292061246034<br>
 
 Motion Sensor LED:<br>
 https://wokwi.com/projects/334433622983443027<br>
+
+Motion Sensor Buzzer:<br>
+https://wokwi.com/projects/334433939640812114<br>
