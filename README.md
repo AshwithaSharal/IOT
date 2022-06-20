@@ -54,3 +54,5 @@ https://wokwi.com/projects/334975929264636499<br>
 Servo motor controlled by potentiometer<br>
 https://wokwi.com/projects/334976902300172883<bt>
 
+Button Servo-meter<br>
+https://wokwi.com/projects/334977571156394580<br>
