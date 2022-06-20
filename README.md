@@ -50,3 +50,7 @@ https://wokwi.com/projects/334434924189712979<br>
 
 Servo motor:<br>
 https://wokwi.com/projects/334975929264636499<br>
+
+Servo motor controlled by potentiometer<br>
+https://wokwi.com/projects/334976902300172883<bt>
+
