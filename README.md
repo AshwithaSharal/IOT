@@ -57,5 +57,5 @@ https://wokwi.com/projects/334976902300172883<bt>
 Button Servo-meter<br>
 https://wokwi.com/projects/334977571156394580<br>
   
-Ultrasonic sensor controls  ser motor<br>
+Ultrasonic sensor controls  servo motor<br>
 https://wokwi.com/projects/334980059722941011<br>
