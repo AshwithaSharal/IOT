@@ -47,3 +47,6 @@ https://wokwi.com/projects/334434338424750674
 
 Ultrasonic LED:<br>
 https://wokwi.com/projects/334434924189712979<br>
+
+Servo motor:<br>
+https://wokwi.com/projects/334975929264636499<br>
