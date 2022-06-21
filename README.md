@@ -17,6 +17,9 @@ https://wokwi.com/projects/334348711681327699<br>
 IR Sensor:<br>
 https://wokwi.com/projects/334347782067323474<br>
 
+Ultrasonic sensor:<br>
+https://wokwi.com/projects/335073076185137748<br>
+
 PIR Sensor:<br>
 PIR sensors allow you to sense motion, almost always used to detect whether a human has moved in or out of the sensors range. They are small, inexpensive, low-power, easy to use and don't wear out. For that reason they are commonly found in appliances and gadgets used in homes or businesses. They are often referred to as PIR, "Passive Infrared", "Pyroelectric", or "IR motion" sensors.<br>
 Working:<br>
@@ -65,3 +68,5 @@ https://wokwi.com/projects/335070912800883284<br>
   
 Buzzer beap using push button<br>
 https://wokwi.com/projects/335066465499611731<br>
+  
+ 
