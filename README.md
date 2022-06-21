@@ -42,7 +42,7 @@ https://wokwi.com/projects/334433622983443027<br>
 Motion Sensor Buzzer:<br>
 https://wokwi.com/projects/334433939640812114<br>
 
-Ultrasonic Sensor:<br>
+Ultrasonic Sensor using buzzer:<br>
 https://wokwi.com/projects/334434338424750674
 
 Ultrasonic LED:<br>
