@@ -59,3 +59,6 @@ https://wokwi.com/projects/334977571156394580<br>
   
 Ultrasonic sensor controls  servo motor<br>
 https://wokwi.com/projects/334980059722941011<br>
+  
+Buzzer beap<br>
+https://wokwi.com/projects/335066465499611731<br>
