@@ -62,3 +62,6 @@ https://wokwi.com/projects/334980059722941011<br>
   
 Buzzer beap<br>
 https://wokwi.com/projects/335066465499611731<br>
+  
+Buzzer beap using push button<br>
+  https://wokwi.com/projects/335066465499611731<br>
