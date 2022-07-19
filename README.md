@@ -73,18 +73,20 @@ Ultrasonic sensor to blink LED<br>
 https://wokwi.com/projects/335612233788686931<br>
 
 LED using Potentiometer <br>
-https://wokwi.com/projects/335700666020266579<br>
+https://wokwi.com/projects/335700666020266579<br><br>
 
-........
-1)program1: LED WITH BUZZER
-https://wokwi.com/projects/337602112497123922
-2)program2: LED with PUSH BUTTON:
-https://wokwi.com/projects/334431214876230226
+LAB PROGRAMS<br>
+1)program1: LED WITH BUZZER<br>
+https://wokwi.com/projects/337602112497123922<br><br>
+  
+2)program2: LED with PUSH BUTTON:<br>
+https://wokwi.com/projects/334431214876230226<br><br>
 
-3)Program3:DHT 22 sensor: 
-https://wokwi.com/projects/337603663792964179
+3)Program3:DHT 22 sensor: <br>
+https://wokwi.com/projects/337603663792964179<br><br>
 
-4)Program 4: relay with arduino ie Servo motor with BUTTON: https://wokwi.com/projects/337603967810798163
+4)Program 4: relay with arduino ie Servo motor with BUTTON: <br>
+  https://wokwi.com/projects/337603967810798163<br><br>
 
-5)Program 5: LCD DHT 22 
-https://wokwi.com/projects/337605922532622930
+5)Program 5: LCD DHT 22 <br>
+https://wokwi.com/projects/337605922532622930<br><br>
