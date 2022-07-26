@@ -90,3 +90,52 @@ https://wokwi.com/projects/337603663792964179<br><br>
 
 5)Program 5: LCD DHT 22 <br>
 https://wokwi.com/projects/337605922532622930<br><br>
+
+
+
+
+
+
+
+
+**ESP8266**<br><br>
+ULTRASONIC:<br>
+
+const int trigPin = D5;<br>
+const int echoPin = D6;<br>
+// defines variables<br>
+long duration;<br>
+int distance;<br>
+float inch;<br>
+void setup() {<br>
+  pinMode(trigPin, OUTPUT); // Sets the trigPin as an Output<br>
+  pinMode(echoPin, INPUT); // Sets the echoPin as an Input<br>
+  Serial.begin(9600); // Starts the serial communication<br>
+}<br>
+void loop() {<br>
+  // Clears the trigPin<br>
+  digitalWrite(trigPin, LOW);<br>
+  delayMicroseconds(2);<br>
+  // Sets the trigPin on HIGH state for 10 micro seconds<br>
+  digitalWrite(trigPin, HIGH);<br>
+  delayMicroseconds(10);<br>
+  digitalWrite(trigPin, LOW);<br>
+  // Reads the echoPin, returns the sound wave travel time in microseconds<br>
+  duration = pulseIn(echoPin, HIGH);<br>
+  // Calculating the distance<br>
+  distance = duration * 0.034 / 2;<br>
+  // Prints the distance on the Serial Monitor<br>
+  inch = distance / 2.54;<br>
+  Serial.print("Distance: ");<br>
+  Serial.print(distance);<br>
+  Serial.println(" cm ");<br>
+  Serial.print("Inch    : ");<br>
+  Serial.print(inch);<br>
+  Serial.println(" inches ");<br>
+  delay(500);<br>
+}<br>
+
+
+
+
+
