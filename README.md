@@ -129,7 +129,8 @@ void loop() {<br>
   delay(500);<br>
 }<br><br>
 
-TEMPERATURE HUMIDITY SENSOR<br>
+TEMPERATURE HUMIDITY SENSOR:<br>
+  
 #include <Adafruit_Sensor.h><br>
     #include <DHT.h>;<br>
     #define DHTPIN D7   // what pin we're connected to<br>
@@ -160,6 +161,7 @@ TEMPERATURE HUMIDITY SENSOR<br>
    }<br><br>
    
 LED:<br>
+  
 void setup() {<br>
   // put your setup code here, to run once:<br>
 pinMode(D6,OUTPUT);<br>
@@ -172,7 +174,8 @@ digitalWrite(D6, LOW);<br>
 delay(1000);<br>
 }<br><br><br>
 
-RGB<br>
+RGB:<br>
+  
 int red_light_pin= D5;<br>
 int green_light_pin = D6;<br>
 int blue_light_pin = D7;<br>
@@ -208,7 +211,8 @@ void RGB_color(int red_light_value, int green_light_value, int blue_light_value)
   analogWrite(blue_light_pin, blue_light_value);<br>
 }<br><br>
 
-IR<br>
+IR:<br>
+  
 int ir=D5;<br>
 int led=D6;<br>
 void setup() {<br>
@@ -216,7 +220,7 @@ void setup() {<br>
   pinMode(ir,INPUT);<br>
     pinMode(led,OUTPUT);<br>
     Serial.begin(9600);<br>
-    }<br><br>
+    }<br>
 void loop() {<br>
   // put your main code here, to run repeatedly:<br>
   int irvalue=digitalRead(ir);<br>
