@@ -92,12 +92,6 @@ https://wokwi.com/projects/337603663792964179<br><br>
 https://wokwi.com/projects/337605922532622930<br><br>
 
 
-
-
-
-
-
-
 **ESP8266**<br><br>
 ULTRASONIC:<br>
 
@@ -135,6 +129,7 @@ void loop() {<br>
   delay(500);<br>
 }<br><br>
 
+TEMPERATURE HUMIDITY SENSOR<br>
 #include <Adafruit_Sensor.h><br>
     #include <DHT.h>;<br>
     #define DHTPIN D7   // what pin we're connected to<br>
@@ -162,7 +157,82 @@ void loop() {<br>
        Serial.print(temp);<br>
        Serial.println(" Celsius");<br>
        delay(1000); //Delay 2 sec.<br>
-   }<br>
+   }<br><br>
+   
+LED:<br>
+void setup() {<br>
+  // put your setup code here, to run once:<br>
+pinMode(D6,OUTPUT);<br>
+}<br>
+void loop() {<br>
+  // put your main code here, to run repeatedly:<br>
+digitalWrite(D6, HIGH);<br>
+delay(1000);<br>
+digitalWrite(D6, LOW);<br>
+delay(1000);<br>
+}<br><br><br>
+
+RGB<br>
+int red_light_pin= D5;<br>
+int green_light_pin = D6;<br>
+int blue_light_pin = D7;<br>
+void setup() <br>
+{<br>
+  pinMode(red_light_pin, OUTPUT);<br>
+  pinMode(green_light_pin, OUTPUT);<br>
+  pinMode(blue_light_pin, OUTPUT);<br>
+}<br>
+void loop() <br>
+{<br>
+  RGB_color(255, 0, 0); // Red<br>
+  delay(1000);<br>
+  RGB_color(0, 255, 0); // Green<br>
+  delay(1000);<br>
+  RGB_color(0, 0, 255); // Blue<br>
+  delay(1000);<br>
+  RGB_color(255, 255, 125); // Raspberry<br>
+  delay(1000);<br>
+  RGB_color(0, 255, 255); // Cyan<br>
+  delay(1000);<br>
+  RGB_color(255, 0, 255); // Magenta<br>
+  delay(1000);<br>
+  RGB_color(255, 255, 0); // Yellow<br>
+  delay(1000);<br>
+  RGB_color(255, 255, 255); // White<br>
+  delay(1000);<br>
+}<br>
+void RGB_color(int red_light_value, int green_light_value, int blue_light_value)<br>
+ {<br>
+  analogWrite(red_light_pin, red_light_value);<br>
+  analogWrite(green_light_pin, green_light_value);<br>
+  analogWrite(blue_light_pin, blue_light_value);<br>
+}<br><br>
+
+IR<br>
+int ir=D5;<br>
+int led=D6;<br>
+void setup() {<br>
+  // put your setup code here, to run once:<br>
+  pinMode(ir,INPUT);<br>
+    pinMode(led,OUTPUT);<br>
+    Serial.begin(9600);<br>
+    }<br><br>
+void loop() {<br>
+  // put your main code here, to run repeatedly:<br>
+  int irvalue=digitalRead(ir);<br>
+  if(irvalue==LOW)<br>
+  {<br>
+    Serial.println("LOW");<br>
+    digitalWrite(led,HIGH);<br>
+  }<br>
+  else<br>
+  {<br>
+    Serial.println("HIGH");<br>
+    digitalWrite(led,LOW);<br>
+  }<br>
+delay(100);<br>
+}<br><br>
+   
 
 
 
