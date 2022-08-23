@@ -236,6 +236,83 @@ void loop() {<br>
   }<br>
 delay(100);<br>
 }<br><br>
+ZA void loop()<br>
+{<br>
+// put your main code here, to run repeatedly:<br>
+int irvalue=digitalRead(ir);<br>
+if(irvalue==LOW)<br>
+{<br>
+Serial.println("LOW");<br>
+digitalWrite(led,HIGH);<br>
+}<br>
+else<br>
+{<br>
+Serial.println("HIGH");<br>
+digitalWrite(led,LOW);<br>
+}<br>
+delay(100);<br>
+}<br>
+
+
+<br>
+LDR<br>
+const int ldrPin=A0;<br>
+void setup() {<br>
+Serial.begin(9600);<br>
+pinMode(ldrPin,INPUT);<br>
+}<br>
+void loop()<br>
+{<br>
+int rawData = analogRead(ldrPin);<br>
+Serial.println(rawData);<br>
+delay(1000);<br>
+}<br>
+
+
+
+
+
+
+<br>
+LDR_LED<br>
+<br>
+int ldr=A0;//Set A0(Analog Input) for LDR.<br>
+int value=0;<br>
+int led=D1;<br>
+void setup()
+{<br>
+Serial.begin(9600);<br>
+pinMode(led,OUTPUT);<br>
+}<br>
+
+void loop()<br>
+{
+value=analogRead(ldr);//Reads the Value of LDR(light).<br>
+Serial.println("LDR value is :");//Prints the value of LDR to Serial Monitor.<br>
+Serial.println(value);<br>
+if(value<50)<br>
+{<br>
+digitalWrite(led,HIGH);//Makes the LED glow in Dark.<br>
+}<br>
+else<br>
+{<br>
+digitalWrite(led,LOW);//Turns the LED OFF in Light.<br>
+}<br>
+delay(1000);<br>
+}<br><br>
+
+
+
+LED_CHASER<br>
+
+int pinsCount=6; // declaring the integer variable pinsCount int pins[] = {D0,D1,D7,D5,D3,D2}; // declaring the array pins[]<br>
+
+void setup() {<br>
+for (int i=0; i<pinsCount; i=i+1){ // counting the variable i from 0 to 9 pinMode(pins[i], OUTPUT); // initialising the pin at index i of the array of pins as OUTPUT<br> } }<br>
+
+void loop() { for (int i=0; i<pinsCount; i=i+1){ // chasing right digitalWrite(pins[i], HIGH); // switching the LED at index i on delay(100); // stopping the program for 100 milliseconds digitalWrite(pins[i], LOW); // switching the LED at index i off } for (int i=pinsCount-1; i>0; i=i-1){ // chasing left (except the outer leds) digitalWrite(pins[i], HIGH); // switching the LED at index i on delay(100); // stopping the program for 100 milliseconds digitalWrite(pins[i], LOW); // switching the LED at index i off<br>
+
+} }<br>
    
 
 
