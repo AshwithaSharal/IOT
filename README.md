@@ -1,24 +1,20 @@
 ## IoT
 *WORD DOCUMENT"<br><br>
-https://wokwi.com/projects/333798144987890259-3 LED<br>
+https://wokwi.com/projects/333798144987890259 -3 LED<br>
 
-https://wokwi.com/projects/333802283016913490-RGB single<br>
+https://wokwi.com/projects/333802283016913490 -RGB single<br>
 
-https://wokwi.com/projects/333806517323039316-RGB<br>
+https://wokwi.com/projects/333806517323039316 -RGB<br>
 
-https://wokwi.com/projects/333807078478971475<br>
+https://wokwi.com/projects/333807078478971475 -liquid crystal<br>
 
-temperature humidity sensor<br>
-https://wokwi.com/projects/334344785890378322<br>
+https://wokwi.com/projects/334344785890378322 -temperature humidity sensor<br>
 
-US Sensor<br>
-https://wokwi.com/projects/334348711681327699<br>
+https://wokwi.com/projects/334348711681327699 -US Sensor<br>
 
-IR Sensor:<br>
-https://wokwi.com/projects/334347782067323474<br>
+https://wokwi.com/projects/334347782067323474 -IR Sensor<br>
 
-Ultrasonic sensor:<br>
-https://wokwi.com/projects/335073076185137748<br>
+https://wokwi.com/projects/335073076185137748 -Ultrasonic sensor<br>
 
 PIR Sensor:<br>
 PIR sensors allow you to sense motion, almost always used to detect whether a human has moved in or out of the sensors range. They are small, inexpensive, low-power, easy to use and don't wear out. For that reason they are commonly found in appliances and gadgets used in homes or businesses. They are often referred to as PIR, "Passive Infrared", "Pyroelectric", or "IR motion" sensors.<br>
@@ -30,50 +26,35 @@ Pin Diagram:<br>
 Code:<br>
 https://wokwi.com/projects/334347041012449875<br>
 
-LED FADE:<br>
-https://wokwi.com/projects/334432104736621140<br>
+https://wokwi.com/projects/334432104736621140 -LED FADE<br>
 
-LED BUTTON:<br>
-https://wokwi.com/projects/334432905214296659<br>
+https://wokwi.com/projects/334432905214296659 -LED BUTTON<br>
 
-Motion Sensor:<br>
-https://wokwi.com/projects/334433292061246034<br>
+https://wokwi.com/projects/334433292061246034 -Motion Sensor<br>
 
-Motion Sensor LED:<br>
-https://wokwi.com/projects/334433622983443027<br>
+https://wokwi.com/projects/334433622983443027 -Motion Sensor LED<br>
 
-Motion Sensor Buzzer:<br>
-https://wokwi.com/projects/334433939640812114<br>
+https://wokwi.com/projects/334433939640812114 -Motion Sensor Buzzer<br>
 
-Ultrasonic Sensor using buzzer:<br>
-https://wokwi.com/projects/334434338424750674
+https://wokwi.com/projects/334434338424750674 -Ultrasonic Sensor using buzzer<br>
 
-Ultrasonic LED:<br>
-https://wokwi.com/projects/334434924189712979<br>
+https://wokwi.com/projects/334434924189712979 -Ultrasonic LED<br>
 
-Servo motor:<br>
-https://wokwi.com/projects/334975929264636499<br>
+https://wokwi.com/projects/334975929264636499 -Servo motor<br>
 
-Servo motor controlled by potentiometer<br>
-https://wokwi.com/projects/334976902300172883<bt>
+https://wokwi.com/projects/334976902300172883 -Servo motor controlled by potentiometer<bt>
 
-Button Servo-meter<br>
-https://wokwi.com/projects/334977571156394580<br>
+https://wokwi.com/projects/334977571156394580 -Button Servo-meter<br>
   
-Ultrasonic sensor controls  servo motor<br>
-https://wokwi.com/projects/334980059722941011<br>
+https://wokwi.com/projects/334980059722941011 -Ultrasonic sensor controls  servo motor<br>
   
-Buzzer beap<br>
-https://wokwi.com/projects/335070912800883284<br>
+https://wokwi.com/projects/335070912800883284 -Buzzer beap<br>
   
-Buzzer beap using push button<br>
-https://wokwi.com/projects/335066465499611731<br>
+https://wokwi.com/projects/335066465499611731 -Buzzer beap using push button<br>
   
-Ultrasonic sensor to blink LED<br>
-https://wokwi.com/projects/335612233788686931<br>
+https://wokwi.com/projects/335612233788686931 -Ultrasonic sensor to blink LED<br>
 
-LED using Potentiometer <br>
-https://wokwi.com/projects/335700666020266579<br><br>
+https://wokwi.com/projects/335700666020266579 -LED using Potentiometer<br><br>
 
 LAB PROGRAMS<br>
 1)program1: LED WITH BUZZER<br>
