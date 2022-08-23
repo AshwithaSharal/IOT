@@ -217,25 +217,7 @@ void loop() {<br>
   }<br>
 delay(100);<br>
 }<br><br>
-ZA void loop()<br>
-{<br>
-// put your main code here, to run repeatedly:<br>
-int irvalue=digitalRead(ir);<br>
-if(irvalue==LOW)<br>
-{<br>
-Serial.println("LOW");<br>
-digitalWrite(led,HIGH);<br>
-}<br>
-else<br>
-{<br>
-Serial.println("HIGH");<br>
-digitalWrite(led,LOW);<br>
-}<br>
-delay(100);<br>
-}<br>
 
-
-<br>
 LDR<br>
 const int ldrPin=A0;<br>
 void setup() {<br>
@@ -249,24 +231,19 @@ Serial.println(rawData);<br>
 delay(1000);<br>
 }<br>
 
-
-
-
-
-
-<br>
 LDR_LED<br>
 <br>
 int ldr=A0;//Set A0(Analog Input) for LDR.<br>
 int value=0;<br>
 int led=D1;<br>
-void setup()
+
+  void setup()
 {<br>
 Serial.begin(9600);<br>
 pinMode(led,OUTPUT);<br>
 }<br>
 
-void loop()<br>
+  void loop()<br>
 {
 value=analogRead(ldr);//Reads the Value of LDR(light).<br>
 Serial.println("LDR value is :");//Prints the value of LDR to Serial Monitor.<br>
