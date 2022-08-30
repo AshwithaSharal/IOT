@@ -290,5 +290,32 @@ for (int i=0; i<pinsCount; i=i+1)<br>
    
 
 
+int led = 6;<br>
+int sound_digital = 7;<br>
+int sound_analog = A0;<br>
 
+void setup(){<br>
+  Serial.begin(9600);<br>
+  pinMode(led, OUTPUT);<br>
+  pinMode(sound_digital, INPUT);  <br>
+}<br>
+
+void loop(){<br>
+  int val_digital = digitalRead(sound_digital);<br>
+  int val_analog = analogRead(sound_analog);<br>
+
+  Serial.print(val_analog);<br>
+  Serial.print("\t");<br>
+  Serial.println(val_digital);<br>
+
+  if (val_digital == HIGH)<br>
+  {<br>
+    digitalWrite (led, HIGH);<br>
+    delay(3000);<br>
+    }<br>
+  else<br>
+  {<br>
+    digitalWrite (led, LOW);<br>
+    }<br>
+}<br>
 
