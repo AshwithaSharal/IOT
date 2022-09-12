@@ -321,4 +321,4 @@ void loop(){<br>
 
 
 https://wokwi.com/projects/342586666245947988-  Seven segment LED display example<br>
-
+https://wokwi.com/projects/342589963426071124-  Analog Joystick with two axes
