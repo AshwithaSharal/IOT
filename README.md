@@ -320,6 +320,7 @@ void loop(){<br>
 }<br><br>
 
 
-https://wokwi.com/projects/342586666245947988-  Seven segment LED display example<br>
-https://wokwi.com/projects/342589963426071124-  Analog Joystick with two axes<br>
-https://wokwi.com/projects/290056311044833800-  Display distance on LCD screen with buzzer and LED <br>
+https://wokwi.com/projects/342586666245947988 - Seven segment LED display example<br>
+https://wokwi.com/projects/342589963426071124 - Analog Joystick with two axes<br>
+https://wokwi.com/projects/290056311044833800 - Display distance on LCD screen with buzzer and LED <br>
+https://wokwi.com/projects/290043622233997832 - Display distance on LCD screen with buzzer and LED <br>
