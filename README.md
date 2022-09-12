@@ -317,5 +317,8 @@ void loop(){<br>
   {<br>
     digitalWrite (led, LOW);<br>
     }<br>
-}<br>
+}<br><br>
+
+
+https://wokwi.com/projects/342586666245947988-  Seven segment LED display example<br>
 
